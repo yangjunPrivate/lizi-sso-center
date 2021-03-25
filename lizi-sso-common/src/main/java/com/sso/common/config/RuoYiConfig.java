@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
  * duYe
  */
 @Component
-@ConfigurationProperties(prefix = "ruoyi")
+@ConfigurationProperties(prefix = "sso")
 public class RuoYiConfig
 {
     /** 项目名称 */
