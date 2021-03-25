@@ -61,16 +61,6 @@
     <!-- 依赖声明 -->
     <dependencyManagement>
         <dependencies>
-        
-            <!-- SpringBoot的依赖配置-->
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-dependencies</artifactId>
-                <version>2.2.13.RELEASE</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-
             <!--阿里数据库连接池 -->
             <dependency>
                 <groupId>com.alibaba</groupId>

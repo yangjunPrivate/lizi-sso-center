@@ -39,7 +39,7 @@ spring:
     port: 6379
   cloud:
   application:
-    name: lizi-id-generator-service
+    name: lizi-sso-center
   boot:
     admin:
       client:
