@@ -59,6 +59,11 @@
             <artifactId>ruoyi-system</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.jiuyue.cloud</groupId>
+            <artifactId>lizi-framework-starter-mybatis</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>
