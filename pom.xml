@@ -4,19 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.jiuyue.cloud</groupId>
+    <artifactId>lizi-sso-center</artifactId>
     <version>3.4.0</version>
 
-    <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
-    <description>若依管理系统</description>
+    <name>lizi-sso-center</name>
+    <description>栗子统一认证</description>
 
     <modules>
-        <module>ruoyi-admin</module>
-        <module>ruoyi-framework</module>
-        <module>ruoyi-system</module>
-        <module>ruoyi-common</module>
+        <module>lizi-sso-common</module>
+        <module>lizi-sso-security</module>
+        <module>lizi-sso-manager</module>
+        <module>lizi-sso-service</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -138,16 +137,16 @@
 			
             <!-- 核心模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-framework</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.jiu.cloud</groupId>
+                <artifactId>lizi-sso-security</artifactId>
+                <version>3.4.0</version>
             </dependency>
 			
             <!-- 系统模块-->
             <dependency>
-                <groupId>com.ruoyi</groupId>
+                <groupId>com.jiu.cloud</groupId>
                 <artifactId>ruoyi-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <version>3.4.0</version>
             </dependency>
 			
             <!-- 通用工具-->
