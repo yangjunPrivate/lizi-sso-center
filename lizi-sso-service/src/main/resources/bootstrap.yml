@@ -39,7 +39,7 @@ spring:
     port: 6379
   cloud:
   application:
-    name: lizi-sso-center
+    name: lizi-sso-service
   boot:
     admin:
       client:

@@ -16,6 +16,7 @@
         <module>lizi-sso-security</module>
         <module>lizi-sso-manager</module>
         <module>lizi-sso-service</module>
+        <module>lizi-sso-client</module>
     </modules>
     <packaging>pom</packaging>
 
